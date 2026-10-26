@@ -1,3 +1,4 @@
 # practicas-daw-2026
 Repositorio oficial para mis prácticas de DAW, Git y Agentes de IA.
 - Semana 1 Iniciadas por Alvaro
+    "Obejtivo del día: Control de versiones dominado"
