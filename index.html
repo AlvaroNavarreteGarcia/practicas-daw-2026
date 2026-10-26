@@ -3,11 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prácticas DAW - UI/UX Asset</title>
+    <title>Tarjeta de Contacto | Prácticas DAW</title>
+    <!-- Vinculación con la hoja de estilos externa -->
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-    <h1>Mi Proyecto UI/UX - Semana 1</h1>
-    <p>Recurso de diseño integrado:</p>
-    <img src="assets/images/telephone.png" alt="Teléfono vintage" width="200">
+
+    <!-- Contenedor principal centrado -->
+    <main class="card-container">
+        <article class="contact-card">
+            
+            <!-- Encabezado con la imagen del recurso -->
+            <header class="card-header">
+                <div class="icon-wrapper">
+                    <img src="assets/images/telephone.png" alt="Icono de teléfono de contacto" class="card-icon">
+                </div>
+            </header>
+
+            <!-- Información principal del contacto -->
+            <section class="card-body">
+                <h1 class="card-title">Álvaro Navarrete</h1>
+                <p class="card-subtitle">Desarrollador Web DAW</p>
+                <p class="card-description">
+                    Construyendo soluciones web modernas y aprendiendo las mejores prácticas de desarrollo profesional.
+                </p>
+            </section>
+
+            <!-- Acciones / Botón de contacto -->
+            <footer class="card-footer">
+                <a href="mailto:navarretegarciaalvaro93@gmail.com" class="btn-primary">
+                    Contactar
+                </a>
+            </footer>
+
+        </article>
+    </main>
+
 </body>
 </html>
